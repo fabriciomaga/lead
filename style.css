@@ -60,11 +60,6 @@ a:hover{
     font-stretch: expanded;
 }
 /********************************************************************************************/
-.break {
-    flex-basis: 100%;
-    height: 0;
-  }
-
 .nav-bar{
     background-color: black; height: 35px;
 }
@@ -87,7 +82,6 @@ a:hover{
  }
 .footer_lead{
     height: 600px;
-    width: 100%;
     
  }
  .def{
@@ -110,9 +104,9 @@ a:hover{
     outline: 0;
     height: 20px;  
     color: #797979;
-    font-family: LeagueSpartan-Semibold;
+    font-family: LeagueSpartan-Light;
     width: 45%;
-    padding: 16px 0 16px 0;
+    padding: 15px;
 } 
 .input-bot {
     box-shadow: 0 0 0 0 none;    
@@ -120,49 +114,37 @@ a:hover{
     border-top: #797979 solid 1px;
     border-bottom: #797979 solid 4px;
     color: #797979;
-    font-family: LeagueSpartan-Semibold;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
     width: 45%;
-    padding: 5px 0 5px 0;
+    padding: 5px;
     
 } 
 /************************* NAV BAR ****************************/
 .logo-nav{
-    
-    margin-top: 15px;
+    position: relative; 
+    top: 50%;
+    transform: translateY(30%);
 }
 .nav-text{
     color: white;
     font-family: LeagueSpartan-Light;
-    padding: 15px 50px 0 50px;    
-}
-.nav-text:hover{
-    color: #f4b923;
-    font-family: LeagueSpartan-Light;
-    padding: 15px 50px 0 50px;    
-}
-.nav-bar{
-    margin-top: -80px;
-    height: 50px;
-}
-.social-nav{
-    margin-top: 10px;
+    padding: 5px 50px 0 50px;
+    
 }
 
 /*************************************************************/
 
 .back-home-topo{
-    background-image: url(img/back-home-1.png);
+    background-image: url(../oceanwp/inc/img/back-home-1.png);
     height: 780px;
-   
-}
-.logo-home{
-    margin-left: -60px;
-    margin-top: 130px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 .logo-home-1{
     position: relative; 
-    transform: translatex(65%);
-        
+    left: 30%;
+    transform: translatex(80%);
+    margin-top: 120px;    
 }
 .text-top{
     font-family: LeagueSpartan-Light;
@@ -186,10 +168,8 @@ a:hover{
     
 }
 .img-whoweare{
-    background-image: url(img/img-whoweare.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
+    height: 400px;
+    width: 100%;
 }
 .text-int{
     font-family: LeagueSpartan-Light;
@@ -245,34 +225,31 @@ a:hover{
 
 .img-whatwe-1{
     height: 340px;
-    background-image: url(img/img-1-whatwedo.png);
+    background-image: url(../oceanwp/inc/img/img-1-whatwedo.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .img-whatwe-2{
     height: 340px;
-    background-image: url(img/img-2-whatwedo.png);
+    background-image: url(../oceanwp/inc/img/img-2-whatwedo.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .img-whatwe-3{
     height: 340px;
-    background-image: url(img/img-3-whatwedo.png);
+    background-image: url(../oceanwp/inc/img/img-3-whatwedo.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 .img-whatwe-4{
     height: 340px;
-    background-image: url(img/img-4-whatwedo.png);
+    background-image: url(../oceanwp/inc/img/img-4-whatwedo.png);
     background-size: contain;
-    background-repeat: no-repeat;
 }
 .bg-planbee{
     height: 345px;
-    background-image: url(img/bg-planbee.png);
+    background-image: url(../oceanwp/inc/img/bg-planbee.png);
     background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 30px;
   
 }
 .text-plan{
@@ -316,7 +293,7 @@ a:hover{
 .back-home-plan-be{
     background-color: #131b24;
     height: 580px;
-    margin: 0 0 0 0;
+    margin: 15px 0 0 0;
 }
 .title-plan-bee{
     font-family: LeagueSpartan-Bold;
@@ -354,7 +331,7 @@ a:hover{
     padding:  5px 25px 5px 25px;
 }
 .img-know-plan-bee{
-    background-image: url(img/img-know-vision-plan-bee.png); 
+    background-image: url(../oceanwp/inc/img/img-know-vision-plan-bee.png); 
     background-repeat: no-repeat; 
     background-size: contain;
 }
@@ -365,7 +342,7 @@ a:hover{
     line-height: 30%;
 }
 .space-div{
-    margin-top: 110px;
+    margin-top: 90px;
     margin-bottom: 50px;
 }
 .number-sign{
@@ -388,7 +365,6 @@ a:hover{
     color: #000;
     font-weight: 400;
     font-size: 22px;    
-    
 }
 .card-package{
     background-color: #efcd77; 
@@ -448,229 +424,11 @@ a:hover{
     font-size: 18px;
 }
 .back-recovered{
-    background-image: url(img/back-home-recovered.png);
+    background-image: url(../oceanwp/inc/img/back-home-recovered.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 680px;
     margin-top: -20px;
-}
-@media only screen and (max-width: 500px) {
-    
-    .back-recovered{
-        background-size:cover;
-        margin-bottom: 400px;
-        height: 380px;
-        margin-top: -22px;
-        
-    }
-    .media-recovered{
-        margin-top: 190px;
-        margin-left: -250px;
-    }
-    .text-recovered{
-        width: 400px;
-    }
-    .nav-text{
-        display: none;
-    }
-    .nav-bar{
-        padding-top: 5px;
-        height: 55px;
-    }
-    .social-nav{
-        margin-left: -95px;
-    }
-    .back-plataforms-recovered{
-        margin-bottom: 300px;
-    }
-    .social-text-recovered{
-        margin-left: 40px;
-    }
-    .title-plan-bee{
-        color: #f4b923;
-    }
-    .text-media-creative{
-        color: #f4b923;
-    }
-    .btn-top-plan-be{
-        color: #000;
-        border-color: #000;
-    }
-    .text-plan-bee{
-        color: #000;
-        width: 400px;
-    }
-    .platforms-recoered{
-        margin-top: 320px;
-        margin-left: -220px;        
-    }
-    .text-social-plataforms-recovered{
-        font-size: 50px!important;
-        padding-left: 20px;
-        
-    }
-    .img-social-logos{
-        height: 390px!important;
-        padding-left: 30px;
-    }
-    .back-plataforms-recovered{
-        height: 450px!important;
-    }
-    .text-media-creative{
-        color: #f4b923!important;
-    }
-    .back-data-analysis{
-       background-color: #131b24;
-        background-image: none!important;
-        height: 400px!important;
-    }
-    #data-title{
-        margin-left: -20px;
-        width: 380px!important;
-        line-height: 55px;
-    }
-    #text-data{
-        margin-left: -20px;
-        color: #efcd77;
-        width: 350px;
-    }
-    #btn-data{
-        color: #f4b923;
-        border-color: #f4b923;
-    }
-    .input-talk{
-        text-align: center;
-    }
-    .form-talk{
-        padding: 0;
-      
-    }
-    .line-send-talk{
-        text-align: center;
-    }
-    .text-input-talk{
-        word-break: break-all;
-    }
-   .menu-footer{
-    display: none;
-   }
-   .contact-footer{
-    text-align: center!important;
-    padding-right: 60px;
-    }
-   .col-logo-footer{
-    text-align: center!important;
-    padding-left: 0!important;
-    width: 380px;
-    padding-right: 60px;
-   }
-   .follow-footer{
-    width: 380px!important;
-    text-align: center;
-    padding-left: 45px;
-   }
-   .footer_lead{
-    height: 700px;
-   }
-   .back-home-topo{
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 550px;
-    margin-top: -167px;
-   }
-   .logo-home{
-    margin-top: 250px;
-   }
-   .logo-home-1{
-    margin-left: -180px;
-    margin-top: 220px;
-   }
-   .social-nav{
-    display: none;
-   }
-   .img-logos{
-    padding: 50px;
-   }
-   .img-whatwe-1{
-    background-size: auto;
-    background-position: center;
-   }
-   .img-whatwe-2{
-    background-size: cover;
-    background-position: left;
-   }
-   .img-whatwe-3{
-    background-size: cover;
-   }
-   .img-whatwe-4{
-    background-size: cover;
-    background-position: left;
-   }
-   .cards{
-    padding-top: 50%;
-   }
-   .bg-planbee{
-    background-size: cover;
-    height: 400px;
-   }
-   .text-plan{
-    padding: 0 0 0 0;
-   }
-   .text-plan-bee{
-    color:#efcd77;
-   }
-   .btn-top-plan-be{
-    color: #efcd77;
-    border-color: #efcd77;
-   }
-   .title-how-work-plan-bee{
-    line-height: 60px;
-    font-size: 45px;
-   }
-   .title-know-plan-bee{
-    color: #f4b923;
-    line-height: 80px;
-   }
-   .number-plan{
-    margin: 15px 0 15px 0;
-   }
-   .block-price{
-    margin-bottom: 20px;
-   }
-   #video-plan-bee{
-    width: 350px;
-    height: 200px;
-    
-   }
-   .content-top{
-    padding-top: 0px!important;
-    margin-top: -420px;
-   }
-   .back-content{
-    background-size: cover!important;
-    height: 480px!important;
-    margin-bottom: 400px;
-   }
-   .col-posts-media{
-    padding-top: 50px!important
-   }
-   .back-plataforms-recovered{
-    margin-bottom: 0px;
-   }
-    
-}
-.col-posts-media{
-    padding-top: 150px;
-}
-.content-top{
-    padding-top: 150px;
-}
-.block-price{
-    height: 350px;
-}
-.img-social-logos{
-    height: 530px; 
-    padding-top: 70px;
 }
 .title-recovered{
     font-family: LeagueSpartan-Bold;
@@ -689,10 +447,6 @@ a:hover{
     padding: 5px 25px 5px 25px;
 }
 .back-plataforms-recovered{
-    
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: left;
     background-color: #131b24;
     height: 580px;
     
@@ -723,7 +477,7 @@ a:hover{
     margin-top: 40px;
 }
 .back-content{
-    background-image:url(img/back-content.png);
+    background-image:url(/inc/img/back-content.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 680px;
@@ -775,169 +529,3 @@ a:hover{
     border: #ffd870 solid 2px;
     padding: 5px 55px 5px 55px;
 }
-.menu-mobile{
-    display: none;
-}
-
-/************************ menu mobile ****************/
-*,
-*:before,
-*:after {
-    margin: 0;
-    padding: 0;
- ;
-}
-
-.mburg {
-
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    top: 25px;
-    left: 25px;
-}
-
-.hamburguer {
-    position: relative;
-    display: block;
-    background: #fff;
-    width: 30px;
-    height: 3px;
-    top: 29px;
-    left: 15px;
-    transition: .5s ease-in-out;
-}
-
-.hamburguer:before,
-.hamburguer:after {
-    background: #fff;
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    transition: .5s ease-in-out;
-}
-
-.hamburguer:before {
-    top: -10px;
-}
-
-.hamburguer:after {
-    bottom: -10px;
-}
-
-input {
-    display: none;
-}
-
-input:checked ~ label .hamburguer {
-    transform: rotate(45deg);
-}
-
-input:checked ~ label .hamburguer:before {
-    transform: rotate(90deg);
-    top: 0;
-}
-
-input:checked ~ label .hamburguer:after {
-    transform: rotate(90deg);
-    bottom: 0;
-}
-*{
-    margin: 0;
-    padding: 0;
-}
-/* cabeçalho fixo */
-.menu{
-    background: #0998d3; 
-    width: 100%;
-    height: 37px;
-    padding: 30px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-}   
-#logo{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    -ms-transform:translate(-50%,-50%)
-}
-/* menu retrail lateral */
-    body{
-        background-color: #ffffff;
-        font-family: 'Just Another Hand', cursive;
-        overflow-X: hidden;
-    }
-
-    #check{
-        display: none;
-    }
-
-    #icone{
-        cursor: pointer;
-        padding: 32px;
-        position: fixed;
-        z-index: 1;
-    }
-
-    .barra{
-        background-color: #0998d3;
-        height: 100%;
-        width: 250px;
-        position: fixed;
-        transition: all .2s linear;
-        left: -250px;
-
-    }
-
-    nav{
-        width: 100%;
-        position: absolute;
-        top: 80px;
-    }
-
-
-    nav a{
-        text-decoration: none;
-
-    }
-
-    .Link {
-        background-color: #0aa9eb;
-        padding: 20px;
-        font-family: 'Gotham';
-        font-size: 12pt;
-        transition: all .3s linear;
-        color: #ffffff;
-        border-bottom: 1px solid #0998d3;
-        opacity: 0;
-
-
-
-
-    }
-
-    .Link:hover{
-        background-color: #076992;
-        color: #ffffff;
-
-    }
-
-    #check:checked ~ .barra{
-        transform: translateX(250px);
-    }
-
-    #check:checked ~ .barra nav a .Link{
-        opacity: 1;
-        transition-delay: .3s;
-    }
-
-    #banner1{
-        padding-top: 97px;
-        width: 100%;
-
-    }
