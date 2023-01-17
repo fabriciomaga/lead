@@ -1,0 +1,531 @@
+/*!
+ * Theme Name: 		   OceanWP
+ * Text Domain: 	   oceanwp
+ * Version:            3.3.6
+ * Author:             OceanWP
+ * Author URI:         https://oceanwp.org/about-oceanwp/
+ * Theme URI:          https://oceanwp.org/
+ * Description:        OceanWP is the perfect theme for your project. Lightweight and highly extendable, it will enable you to create almost any type of website such a blog, portfolio, business website and WooCommerce storefront with a beautiful & professional design. Very fast, responsive, RTL & translation ready, best SEO practices, unique WooCommerce features to increase conversion and much more. You can even edit the settings on tablet & mobile so your site looks good on every device. Work with the most popular page builders as Elementor, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, etc... Developers will love his extensible codebase making it a joy to customize and extend. Best friend of Elementor & WooCommerce. Looking for a Multi-Purpose theme? Look no further! Check the demos to realize that it's the only theme you will ever need: https://oceanwp.org/demos/
+ * Tags:               two-columns, right-sidebar, footer-widgets, blog, news, custom-background, custom-menu, post-formats, rtl-language-support, sticky-post, editor-style, threaded-comments, translation-ready, buddypress, custom-colors, featured-images, full-width-template, theme-options, e-commerce, block-styles, wide-blocks, accessibility-ready
+ *
+ * License: GNU General Public License v2.0 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * All files, unless otherwise stated, are released under the GNU General Public
+ * License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+ * This theme, like WordPress, is licensed under the GPL.
+ * Use it to make something cool, have fun, and share what you've learned
+ * with others.
+ *
+ * DO NOT ADD YOUR CSS TO THIS FILE - IT WILL BE LOST
+ * To add your own CSS, use a child theme: https://github.com/oceanwp/oceanwp-child-theme
+ *
+ * CSS file is in "assets/css"
+ */
+
+ /***************************************************************************************/
+ a{
+    color: #222221;
+}
+a:hover{
+    color: #584100;
+}
+ @font-face{
+    font-family: LeagueSpartan-ExtraBold;
+    src: url("fonts/LeagueSpartan-ExtraBold.ttf") format(truetype);
+}
+@font-face{
+    font-family: LeagueSpartan-Light;
+    src: url("fonts/LeagueSpartan-Light.ttf") format(truetype);
+}
+@font-face{
+    font-family: LeagueSpartan-Bold;
+    src: url("fonts/LeagueSpartan-Bold.ttf") format(truetype);
+}
+@font-face{
+    font-family: LeagueSpartan-SemiBold;
+    src: url("fonts/LeagueSpartan-SemiBold.ttf") format(truetype);
+}
+@font-face{
+    font-family: LeagueSpartan-Regular;
+    src: url("fonts/LeagueSpartan-Regular.ttf") format(truetype);
+}
+@font-face{
+    font-family: LeagueSpartan-Black;
+    src: url("fonts/LeagueSpartan-Black.ttf") format(truetype);
+}
+.font-lead{
+    font-family: LeagueSpartan-Light;    
+    font-stretch: expanded;
+}
+/********************************************************************************************/
+.nav-bar{
+    background-color: black; height: 35px;
+}
+
+ .display{
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    vertical-align:middle;
+}
+.cont {
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle 
+}
+
+ .amarelo_lead{
+    background-color: #ffd870;
+    color: #222221;
+ }
+.footer_lead{
+    height: 600px;
+    
+ }
+ .def{
+    border:2px;
+    border-style: solid;
+    border-color: blue;
+    height: 400px;
+    width: 100%;
+ }
+
+ /************** LETS TALK *******************/
+ .background-white{
+    background-color: white;
+    height: 450px;    
+ }
+.input-top {
+    box-shadow: 0 0 0 0 none;    
+    border: none;
+    border-top: #ffd870 solid 4px;
+    outline: 0;
+    height: 20px;  
+    color: #797979;
+    font-family: LeagueSpartan-Light;
+    width: 45%;
+    padding: 15px;
+} 
+.input-bot {
+    box-shadow: 0 0 0 0 none;    
+    border: none;
+    border-top: #797979 solid 1px;
+    border-bottom: #797979 solid 4px;
+    color: #797979;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    width: 45%;
+    padding: 5px;
+    
+} 
+/************************* NAV BAR ****************************/
+.logo-nav{
+    position: relative; 
+    top: 50%;
+    transform: translateY(30%);
+}
+.nav-text{
+    color: white;
+    font-family: LeagueSpartan-Light;
+    padding: 5px 50px 0 50px;
+    
+}
+
+/*************************************************************/
+
+.back-home-topo{
+    background-image: url(../oceanwp/inc/img/back-home-1.png);
+    height: 780px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.logo-home-1{
+    position: relative; 
+    left: 30%;
+    transform: translatex(80%);
+    margin-top: 120px;    
+}
+.text-top{
+    font-family: LeagueSpartan-Light;
+    font-size: 48px;
+    text-align: left;
+    line-height: 90%;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+.btn-black-border{
+    background-color: transparent;
+    border: #222221 solid 2px;
+    font-size: 15px;
+    padding: 0px 30px 0px 30px;
+    margin-top: 50px;
+}
+.img-logos{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    
+}
+.img-whoweare{
+    height: 400px;
+    width: 100%;
+}
+.text-int{
+    font-family: LeagueSpartan-Light;
+    font-weight: 600;
+    font-size: 13px;
+}
+.btn-black-int{
+    background-color: transparent;
+    border: #222221 solid 2px;
+    font-size: 12px;
+    font-family: LeagueSpartan-Light;
+    font-weight: 600;
+    padding:  5px 20px 5px 20px;
+}
+.input-talk{
+    background-color: transparent;
+    border: #222221 solid 2px;
+    font-size: 12px;
+    font-family: LeagueSpartan-Light;
+    font-weight: 600;
+    padding:  5px 35px 5px 35px;
+    
+}
+.text-input-talk{
+    font-size: 12px;
+    font-family: LeagueSpartan-Light;
+    font-weight: 600;
+    padding: 1% 0 0 1%;
+}
+.title-int{
+    font-size: 25px;
+    font-family: LeagueSpartan-Light;
+    font-weight: 900;
+}
+.title-card{
+    font-size: 25px;
+    font-family: LeagueSpartan-SemiBold;
+    display: flex;
+    
+}
+.text-card{
+    font-family: LeagueSpartan-Light;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0 0 10px 0;
+}
+.cards{
+    padding-top: 30%;
+    display: flexbox;
+    list-style-type: none;
+    padding-left: 4%;
+}
+
+.img-whatwe-1{
+    height: 340px;
+    background-image: url(../oceanwp/inc/img/img-1-whatwedo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-whatwe-2{
+    height: 340px;
+    background-image: url(../oceanwp/inc/img/img-2-whatwedo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-whatwe-3{
+    height: 340px;
+    background-image: url(../oceanwp/inc/img/img-3-whatwedo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-whatwe-4{
+    height: 340px;
+    background-image: url(../oceanwp/inc/img/img-4-whatwedo.png);
+    background-size: contain;
+}
+.bg-planbee{
+    height: 345px;
+    background-image: url(../oceanwp/inc/img/bg-planbee.png);
+    background-size: contain;
+  
+}
+.text-plan{
+    padding: 0 300px 0 300px;  
+    color: #ffd870; 
+    font-family: LeagueSpartan-Light;
+    font-weight: 500;
+}
+.title-plan-lead{
+    font-family: LeagueSpartan-Regular;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffd870; 
+}
+.title-plan{
+    font-family: LeagueSpartan-Bold;
+    font-size: 55px;
+    font-weight: 600;
+    color: #ffd870;
+}
+.title-wedo{
+    font-family: LeagueSpartan-Bold;
+    font-size: 35px;
+    color: #222221;
+    line-height: 0px;
+    padding: 40px 0 0 20px;
+}
+.title-whoare{
+    font-family: LeagueSpartan-Bold;
+    font-size: 35px;
+    color: #222221;
+    line-height: 0px;
+    padding-left: -50px;
+    }
+.form-talk{
+    margin-top: 40px;
+}
+.row-logo{
+    padding: 1px 0 28px 0;
+}
+.back-home-plan-be{
+    background-color: #131b24;
+    height: 580px;
+    margin: 15px 0 0 0;
+}
+.title-plan-bee{
+    font-family: LeagueSpartan-Bold;
+    font-size: 70px;
+    color: #ffd870;
+}
+.text-plan-bee{
+    color: #ffd870; 
+    font-family: LeagueSpartan-Light;
+    font-weight: 500;
+}
+.btn-top-plan-be{
+    background-color: transparent;
+    color: #ffd870;
+    border: #ffd870 solid 2px;
+    padding: 5px 25px 5px 25px;
+}
+.title-know-plan-bee{
+    font-family: LeagueSpartan-Bold;
+    font-size: 70px;
+    color: #ffd870;
+    line-height: 90%;
+}
+.text-know-plan-bee{
+    color: #222221; 
+    font-family: LeagueSpartan-Light;
+    font-weight: 500;
+}
+.btn-know-plan-bee{
+    background-color: transparent;
+    border: #222221 solid 1px;
+    font-size: 12px;
+    font-family: LeagueSpartan-Light;
+    font-weight: 600;
+    padding:  5px 25px 5px 25px;
+}
+.img-know-plan-bee{
+    background-image: url(../oceanwp/inc/img/img-know-vision-plan-bee.png); 
+    background-repeat: no-repeat; 
+    background-size: contain;
+}
+.title-how-work-plan-bee{
+    font-family: LeagueSpartan-Bold;
+    font-size: 70px;
+    color: #222221;
+    line-height: 30%;
+}
+.space-div{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.number-sign{
+    font-family: LeagueSpartan-Black;
+    font-size: 120px;
+    color: #7f7f7f;
+    padding: 0 0 30px 20px;
+}
+.text-number-sign{
+    font-family: LeagueSpartan-Light;
+    color: #7f7f7f;
+    font-weight: 600;
+    font-size: 12px;
+}
+.plan-bee-packages{
+    margin: 100px 0 0 0;
+}
+.text-find-package{
+    font-family: LeagueSpartan-Light;
+    color: #000;
+    font-weight: 400;
+    font-size: 22px;    
+}
+.card-package{
+    background-color: #efcd77; 
+    height: 350px; 
+    width: 270px; 
+    margin: 15px 0 0 0;
+    border-radius: 12px;
+}
+.top-card-package{
+    background-color: #f4b923;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 12px 12px 0 0;
+}
+.title-top-card-package{
+    color: #FFF;
+    font-family: LeagueSpartan-Bold;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.content-card-package{
+    padding-left: 20px;
+}
+.price-card-package{
+    color: #000;
+    font-family: LeagueSpartan-Bold;
+    font-size: 18px;
+    padding: 18px 0 10px 0;
+}
+.desc-card-package{
+    color: #000;
+    font-family: LeagueSpartan-Light;
+    font-size: 14px;
+}
+.btn-card-package{
+    background-color: transparent;
+    border: #222221 solid 1px;
+    padding: 4px 30px 2px 30px;
+    margin-top: 30px;
+    font-family: LeagueSpartan-Light;
+}
+.learn-more-card-package{
+    color: #000;
+    font-family: LeagueSpartan-Light;
+    padding: 35px 0 0 15px;
+}
+.align-div{
+    width: 100%;
+    margin: 0 auto;
+}
+.font-light{
+    font-family: LeagueSpartan-Light;
+    font-size: 18px;
+}
+.font-bold{
+    font-family: LeagueSpartan-Bold;
+    font-size: 18px;
+}
+.back-recovered{
+    background-image: url(../oceanwp/inc/img/back-home-recovered.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 680px;
+    margin-top: -20px;
+}
+.title-recovered{
+    font-family: LeagueSpartan-Bold;
+    font-size: 70px;
+    color: #000;
+}
+.text-recovered{
+    color: #000; 
+    font-family: LeagueSpartan-Light;
+    font-weight: 500;
+}
+.btn-top-recovered{
+    background-color: transparent;
+    color: #000;
+    border: #000 solid 2px;
+    padding: 5px 25px 5px 25px;
+}
+.back-plataforms-recovered{
+    background-color: #131b24;
+    height: 580px;
+    
+}
+.text-social-plataforms-recovered{
+    font-family: LeagueSpartan-Bold;
+    font-size: 70px;
+    color: #222830;
+}
+.creative-recovered{    
+    padding-top: 50px;
+}
+.text-media-creative{
+    font-family: LeagueSpartan-Bold;
+    font-size: 70px;
+    color: #ffd870;
+}
+.text-creative-team{
+    color: #000; 
+    font-family: LeagueSpartan-Light;
+    font-weight: 500;
+}
+.back-data-analysis{
+    background-image: url(img/data-analyses.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px;
+    margin-top: 40px;
+}
+.back-content{
+    background-image:url(/inc/img/back-content.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 680px;
+    
+}
+.blogs-content{
+    background-color: #ffd870;
+    height: 420px;
+}
+.title-blogs-content{
+    font-family: LeagueSpartan-Bold;
+    font-size: 70px;
+    color: #000;
+    padding-top: 50px;
+}
+.text-blogs-content{
+    color: #000; 
+    font-family: LeagueSpartan-Light;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 50px;    
+}
+.btn-blogs-content{
+    background-color: transparent;
+    color: #000;
+    border: #000 solid 2px;
+    padding: 5px 55px 5px 55px;
+}
+.email-content{
+    background-color: #131b24;
+    height: 420px;
+}
+.title-email-content{
+    font-family: LeagueSpartan-Bold;
+    font-size: 70px;
+    color: #ffd870;
+    padding-top: 50px;
+}
+.text-email-content{
+    color:#ffd870; 
+    font-family: LeagueSpartan-Light;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 50px;    
+}
+.btn-email-content{
+    background-color: transparent;
+    color: #ffd870;
+    border: #ffd870 solid 2px;
+    padding: 5px 55px 5px 55px;
+}
