@@ -529,3 +529,208 @@ a:hover{
     border: #ffd870 solid 2px;
     padding: 5px 55px 5px 55px;
 }
+@media only screen and (max-width: 500px) {
+    
+    .back-recovered{
+        background-size:cover;
+        margin-bottom: 400px;
+        height: 380px;
+        margin-top: -22px;
+        
+    }
+    .media-recovered{
+        margin-top: 190px;
+        margin-left: -250px;
+    }
+    .text-recovered{
+        width: 400px;
+    }
+    .nav-text{
+        display: none;
+    }
+    .nav-bar{
+        padding-top: 5px;
+        height: 55px;
+    }
+    .social-nav{
+        margin-left: -95px;
+    }
+    .back-plataforms-recovered{
+        margin-bottom: 300px;
+    }
+    .social-text-recovered{
+        margin-left: 40px;
+    }
+    .title-plan-bee{
+        color: #f4b923;
+    }
+    .text-media-creative{
+        color: #f4b923;
+    }
+    .btn-top-plan-be{
+        color: #000;
+        border-color: #000;
+    }
+    .text-plan-bee{
+        color: #000;
+        width: 400px;
+    }
+    .platforms-recoered{
+        margin-top: 320px;
+        margin-left: -220px;        
+    }
+    .text-social-plataforms-recovered{
+        font-size: 50px!important;
+        padding-left: 20px;
+        
+    }
+    .img-social-logos{
+        height: 390px!important;
+        padding-left: 30px;
+    }
+    .back-plataforms-recovered{
+        height: 450px!important;
+    }
+    .text-media-creative{
+        color: #f4b923!important;
+    }
+    .back-data-analysis{
+       background-color: #131b24;
+        background-image: none!important;
+        height: 400px!important;
+    }
+    #data-title{
+        margin-left: -20px;
+        width: 380px!important;
+        line-height: 55px;
+    }
+    #text-data{
+        margin-left: -20px;
+        color: #efcd77;
+        width: 350px;
+    }
+    #btn-data{
+        color: #f4b923;
+        border-color: #f4b923;
+    }
+    .input-talk{
+        text-align: center;
+    }
+    .form-talk{
+        padding: 0;
+      
+    }
+    .line-send-talk{
+        text-align: center;
+    }
+    .text-input-talk{
+        word-break: break-all;
+    }
+   .menu-footer{
+    display: none;
+   }
+   .contact-footer{
+    text-align: center!important;
+    padding-right: 60px;
+    }
+   .col-logo-footer{
+    text-align: center!important;
+    padding-left: 0!important;
+    width: 380px;
+    padding-right: 60px;
+   }
+   .follow-footer{
+    width: 380px!important;
+    text-align: center;
+    padding-left: 45px;
+   }
+   .footer_lead{
+    height: 700px;
+   }
+   .back-home-topo{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 550px;
+    margin-top: -167px;
+   }
+   .logo-home{
+    margin-top: 250px;
+   }
+   .logo-home-1{
+    margin-left: -180px;
+    margin-top: 220px;
+   }
+   .social-nav{
+    display: none;
+   }
+   .img-logos{
+    padding: 50px;
+   }
+   .img-whatwe-1{
+    background-size: auto;
+    background-position: center;
+   }
+   .img-whatwe-2{
+    background-size: cover;
+    background-position: left;
+   }
+   .img-whatwe-3{
+    background-size: cover;
+   }
+   .img-whatwe-4{
+    background-size: cover;
+    background-position: left;
+   }
+   .cards{
+    padding-top: 50%;
+   }
+   .bg-planbee{
+    background-size: cover;
+    height: 400px;
+   }
+   .text-plan{
+    padding: 0 0 0 0;
+   }
+   .text-plan-bee{
+    color:#efcd77;
+   }
+   .btn-top-plan-be{
+    color: #efcd77;
+    border-color: #efcd77;
+   }
+   .title-how-work-plan-bee{
+    line-height: 60px;
+    font-size: 45px;
+   }
+   .title-know-plan-bee{
+    color: #f4b923;
+    line-height: 80px;
+   }
+   .number-plan{
+    margin: 15px 0 15px 0;
+   }
+   .block-price{
+    margin-bottom: 20px;
+   }
+   #video-plan-bee{
+    width: 350px;
+    height: 200px;
+    
+   }
+   .content-top{
+    padding-top: 0px!important;
+    margin-top: -420px;
+   }
+   .back-content{
+    background-size: cover!important;
+    height: 480px!important;
+    margin-bottom: 400px;
+   }
+   .col-posts-media{
+    padding-top: 50px!important
+   }
+   .back-plataforms-recovered{
+    margin-bottom: 0px;
+   }
+    
+}
